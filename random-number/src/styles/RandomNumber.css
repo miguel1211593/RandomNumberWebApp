@@ -1,3 +1,13 @@
-.screen{
-    text-align: center;
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh; /* Adjusted min-height for a more flattened appearance */
+    background-color: white;
+    border: 10px solid #ccc;
+    margin: 100px auto; /* Adjusted margin for top and bottom */
+    width: 70%;
+    max-width: 600px; /* Optional: Set a max-width to the container */
+    border-radius: 20px;
 }

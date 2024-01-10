@@ -1,0 +1,65 @@
+.inputMin {
+    font-size: 1.2rem; /* Slightly larger font size */
+    margin-right: 20px; /* Margin for spacing */
+    padding: 5px; /* Add some padding for a cleaner look */
+    border: 2px solid #ccc; /* Thin border for definition */
+    border-radius: 5px; /* Rounded corners for a more modern feel */
+    height: 32px;
+  
+}
+  
+  .inputMax {
+    font-size: 1.2rem; /* Slightly larger font size */
+    padding: 5px; /* Add some padding for a cleaner look */
+    border: 2px solid #ccc; /* Thin border for definition */
+    border-radius: 5px; /* Rounded corners for a more modern feel */
+    height: 32px;
+}
+
+.submit {
+    margin-top: 30px;
+    width: 80px; /* or any desired value */
+    height: 40px; /* or any desired value */
+    font-size: large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    background-color: #f5f5f5; /* White with a subtle gray tinge */
+    border: 2px solid #ccc; /* Grey border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  
+    cursor: pointer; /* Change cursor to hand when hovered over */
+  
+    &:hover {
+        transition: background-color 0.2s ease-out, box-shadow 0.3s ease-out;
+        &:active {
+          background-color: #ccc; /* Darker gray on click */
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Brighter glow on click */
+        }
+      }
+    }
+
+
+    .text{
+        font-size: 44px;
+        margin-bottom: 60px; /* Adiciona espaçamento entre o título e os inputs */
+        font-family:"Roboto";
+    }    
+
+    .inputs-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .result{
+        margin-top: 30px;
+        border-radius: 20px;
+        border: 2px solid #ccc;
+        width: 100px;
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;
+    }
